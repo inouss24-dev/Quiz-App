@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --blue : rgb(106, 106, 241);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #fff;
+    flex-direction: column;
+}
+main {
+    border: 1px solid black;
+}
+h1{
+    color: var(--blue);
+    text-align: center;
+}
+
+h2{
+    margin-top: 2rem;
+    color: black;
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+
+.container {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.container .easy-section {
+    background-color: green;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    height: 50px;
+    border-radius: 5px;
+    gap: 2rem;
+}
+
+.container .easy-section a {
+   color: #fff;
+   width: 100%;
+
+}
+
+.container .easy-section:hover {
+    transform: translateY(-0.2rem);
+    transition: transform 300ms;
+}
+
+
+.container .normal-section {
+    background-color: rgb(238, 238, 4);
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 5px;
+    gap: 2rem;
+    height: 50px;
+
+}
+
+.container .normal-section a {
+    color: #fff;
+    width: 100%;
+
+ }
+
+.container .normal-section:hover {
+    transform: translateY(-0.2rem);
+    transition: transform 300ms;
+}
+
+.container .hard-section {
+    background-color: red;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 5px;
+    gap: 2rem;
+    height: 50px;
+}
+
+.container .hard-section a {
+    color: #fff;
+    width: 100%;
+ }
+
+.container .hard-section:hover {
+    transform: translateY(-0.2rem);
+    transition: ease-in-out 0.6s;
+}
+
+.container .veryHard-section {
+    background-color: black;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 5px;
+    gap: 2rem;
+    height: 50px;
+}
+
+.container .veryHard-section a {
+    color: #fff;
+    width: 100%;
+ }
+
+.container .veryHard-section:hover {
+    transform: translateY(-0.2rem);
+    transition: ease-in-out 0.6s;
+}
+
+
+ 

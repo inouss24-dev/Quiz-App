@@ -1,0 +1,34 @@
+Bien sûr ! Voici les étapes pour créer ton application de quiz, sans référence aux jours :
+
+1. Planification
+	Définir le concept : Choisir les types de quiz (culture générale, sciences, etc.).
+	Établir le contenu : Préparer les questions, réponses correctes et distracteurs.
+	Maquettes de l'interface utilisateur : Dessiner des esquisses de l’interface.
+
+2. Structure HTML
+	Créer le fichier HTML : Écrire la structure de base du site (titre, quiz, résultats).
+	Ajouter des éléments : Intégrer les boutons, formulaires et zones de texte nécessaires.
+
+3. Style avec CSS
+	Définir le style : Choisir une palette de couleurs et une typographie.
+	Appliquer le CSS : Écrire le code CSS pour styliser l’interface.
+
+4. Logique JavaScript (Partie 1)
+	Initialiser le JavaScript : Créer un fichier JavaScript et le relier à l'HTML.
+	Gestion des questions : Écrire le code pour afficher les questions et les réponses.
+
+5. Logique JavaScript (Partie 2)
+	Interaction utilisateur : Ajouter des événements pour capturer les réponses (clic sur les boutons).
+	Évaluation des réponses : Implémenter la logique pour vérifier les réponses et fournir un retour.
+
+6. Résultats et Améliorations
+	Calcul des résultats : Ajouter une fonctionnalité pour afficher le score final et donner des commentaires.
+	Affiner l'interface : Améliorer le design ou l'expérience utilisateur avec des animations ou une 	navigation simplifiée.
+
+7. Tests et Déploiement
+	Tester l'application : Vérifier le fonctionnement et identifier les bogues.
+	Déploiement : Héberger l'application sur une plateforme comme GitHub Pages ou Netlify.
+
+Bonus : Documentation
+	Rédiger une documentation : Expliquer l'utilisation du quiz et les technologies utilisées.
+
